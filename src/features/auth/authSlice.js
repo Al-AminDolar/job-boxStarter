@@ -6,6 +6,8 @@ const initialState = {
   isLoading: true,
   isError: false,
   error: "",
+  dolar: "",
+  corexlab: "",
 };
 
 const authSlice = createSlice({
