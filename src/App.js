@@ -12,7 +12,7 @@ function App() {
       }
     });
   }, []);
-  console.log(process.env);
+
   return (
     <>
       <RouterProvider router={routes} />
