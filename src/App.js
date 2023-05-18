@@ -16,20 +16,6 @@ function App() {
       }
     });
   }, []);
-  useEffect(() => {
-    onAuthStateChanged(auth, (user) => {
-      if (user) {
-        dispatch(setUser(user.email));
-      }
-    });
-  }, []);
-  useEffect(() => {
-    onAuthStateChanged(auth, (user) => {
-      if (user) {
-        dispatch(setUser(user.email));
-      }
-    });
-  }, []);
 
   return (
     <>
